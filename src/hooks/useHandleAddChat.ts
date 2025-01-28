@@ -49,11 +49,13 @@ export const useHandleAddChat = () => {
       if (chatsData.length === 0) {
         addChatToState(phoneNumber, "Нет сообщений", newChatId);
       } else {
+        const senderName =
+          chatsData.find((msg) => msg.senderName || msg.senderContactName)
+            ?.senderName || phoneNumber;
+
         const firstMessage = chatsData[0];
         addChatToState(
-          firstMessage.senderName ||
-            firstMessage.senderContactName ||
-            phoneNumber,
+          senderName,
           firstMessage.textMessage,
           firstMessage.chatId
         );

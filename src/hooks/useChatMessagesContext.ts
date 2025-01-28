@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ApiDataContext, ChatMessagesContext } from "../contexts";
+import { ChatMessagesContext } from "../contexts";
 
 const useChatMessagesContext = () => {
   const context = useContext(ChatMessagesContext);
