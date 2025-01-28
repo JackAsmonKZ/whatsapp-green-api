@@ -1,0 +1,23 @@
+.chat-bar-tabs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 9px;
+  flex-wrap: wrap;
+  padding-left: 16px;
+  padding-right: 10px;
+
+  &__tab {
+    background-color: rgb(240, 242, 245);
+    padding: 6px 12px;
+    border: none;
+    border-radius: 42px;
+    font-size: 15px;
+    color: rgb(84, 101, 111);
+    cursor: pointer;
+    &--active {
+      color: rgb(0, 128, 105);
+      background-color: rgb(231, 252, 227);
+    }
+  }
+}

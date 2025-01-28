@@ -1,0 +1,36 @@
+.chat-items {
+  max-width: 75%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin: 5px 0;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+  &--incoming {
+    background-color: #ffffff;
+    color: #111;
+    border-radius: 8px 8px 8px 0;
+    max-width: fit-content;
+  }
+  &--outcoming {
+    background-color: #dcf8c6;
+    color: #111;
+    border-radius: 8px 8px 0 8px;
+    align-self: flex-end;
+    text-align: right;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

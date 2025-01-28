@@ -1,0 +1,30 @@
+.chat-bar-search {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 10px;
+  &__input-wrapper {
+    position: relative;
+  }
+
+  &__input {
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f0f2f5;
+    padding-left: 65px;
+    width: 100%;
+    &:focus-visible {
+      outline: none;
+    }
+    &:focus::placeholder {
+      color: transparent;
+    }
+  }
+
+  &__icon-search {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 12px;
+  }
+}

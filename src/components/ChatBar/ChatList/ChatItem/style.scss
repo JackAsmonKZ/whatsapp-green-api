@@ -1,0 +1,59 @@
+.chat-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 72px;
+  justify-content: center;
+  padding-left: 16px;
+  padding-right: 10px;
+  cursor: pointer;
+
+  &:not(:first-child) {
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 83%;
+      height: 1px;
+      background-color: #e9edef;
+    }
+  }
+
+  &:hover {
+    background-color: #f0f2f5;
+  }
+
+  &__container {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    justify-content: start;
+  }
+
+  &__wrapper {
+    flex: 1 1 auto;
+  }
+
+  &__avatar {
+    svg {
+      height: 49px;
+      width: 49px;
+    }
+  }
+
+  &__name {
+    font-size: 16px;
+  }
+
+  &__message {
+    font-size: 14px;
+    color: rgb(102, 119, 129);
+  }
+
+  &__date {
+    color: rgb(102, 119, 129);
+    line-height: 14px;
+    font-size: 12px;
+  }
+}

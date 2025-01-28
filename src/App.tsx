@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import { ChatBar } from "./components/ChatBar/ChatBar";
+import { ChatWindow } from "./components/ChatWindow/ChatWindow";
+import { Header } from "./components/Header/Header";
+import { useAuthorization } from "./hooks/useAuthorization";
+import {
+  ApiDataContext,
+  ChatMessagesContext,
+  TabIndexContext,
+} from "./contexts";
+import { ChatMessage } from "./types";
 
-function App() {
+const App = () => {
+  const [tabIndex, setTabIndex] = useState<string>("empty");
+  const [chatMessages, setChatMessages] = useState<ChatMessage[]>([]);
+  const { idInstance, apiTokenInstance } = useAuthorization();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TabIndexContext.Provider value={{ tabIndex, setTabIndex }}>
+      <ApiDataContext.Provider value={{ idInstance, apiTokenInstance }}>
+        <ChatMessagesContext.Provider value={{ chatMessages, setChatMessages }}>
+          <div className="app">
+            <Header />
+            <ChatBar />
+            <ChatWindow />
+          </div>
+        </ChatMessagesContext.Provider>
+      </ApiDataContext.Provider>
+    </TabIndexContext.Provider>
   );
-}
+};
 
 export default App;

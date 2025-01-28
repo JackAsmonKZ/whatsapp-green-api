@@ -1,0 +1,26 @@
+.chatbar {
+  flex: 0 0 40%;
+  max-width: 475px;
+  border-right: 0.5px solid rgb(213 221 227);
+  border-left: 0.5px solid rgb(213 221 227);
+
+  box-shadow: rgba(221 221 231 / 20%) 0px 7px 29px 0px;
+
+  &__title {
+    line-height: 32px;
+    font-size: 22px;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+    color: #111b21;
+  }
+
+  &__icon-dots {
+    transform: rotate(90deg);
+  }
+}

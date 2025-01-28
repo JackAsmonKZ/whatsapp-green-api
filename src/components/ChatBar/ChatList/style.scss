@@ -1,0 +1,16 @@
+.chat-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+  &__add-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover {
+      color: rgb(84, 101, 111);
+    }
+  }
+}
