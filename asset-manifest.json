@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/whatsapp-green-api/static/css/main.1df9ea9b.css",
+    "main.js": "/whatsapp-green-api/static/js/main.a0771d6a.js",
+    "static/media/SFProText-Light.woff": "/whatsapp-green-api/static/media/SFProText-Light.216af261edd7c98d3ba5.woff",
+    "static/media/SFProText-Heavy.woff": "/whatsapp-green-api/static/media/SFProText-Heavy.57edf831c3c3e19a61ed.woff",
+    "static/media/SFProText-Semibold.woff": "/whatsapp-green-api/static/media/SFProText-Semibold.e30443a668a3419b97e3.woff",
+    "static/media/SFProText-Medium.woff": "/whatsapp-green-api/static/media/SFProText-Medium.1d3ae162882be43de296.woff",
+    "static/media/SFProText-Bold.woff": "/whatsapp-green-api/static/media/SFProText-Bold.794e387fdd5f31e5fa53.woff",
+    "static/media/SFProText-Regular.woff": "/whatsapp-green-api/static/media/SFProText-Regular.bed50e6ecebd654fa435.woff",
+    "static/media/SFProText-HeavyItalic.woff": "/whatsapp-green-api/static/media/SFProText-HeavyItalic.e7c8759469ccdc81f290.woff",
+    "static/media/SFProText-SemiboldItalic.woff": "/whatsapp-green-api/static/media/SFProText-SemiboldItalic.d5f8849b28dbd8b5b670.woff",
+    "static/media/SFProText-MediumItalic.woff": "/whatsapp-green-api/static/media/SFProText-MediumItalic.03eb0fb05a818af4d628.woff",
+    "static/media/SFProText-LightItalic.woff": "/whatsapp-green-api/static/media/SFProText-LightItalic.b8515dcfa7479ab43de6.woff",
+    "static/media/SFProText-BoldItalic.woff": "/whatsapp-green-api/static/media/SFProText-BoldItalic.6a7459a72076fe26a634.woff",
+    "static/media/SFProText-Light.woff2": "/whatsapp-green-api/static/media/SFProText-Light.e829bc5ce2b39e90eae7.woff2",
+    "static/media/SFProText-Semibold.woff2": "/whatsapp-green-api/static/media/SFProText-Semibold.862c3f0e4138dc116794.woff2",
+    "static/media/SFProText-Medium.woff2": "/whatsapp-green-api/static/media/SFProText-Medium.9fcb8206a311738ca1b7.woff2",
+    "static/media/SFProText-Heavy.woff2": "/whatsapp-green-api/static/media/SFProText-Heavy.fcd80cd723eb5c7378ef.woff2",
+    "static/media/SFProText-RegularItalic.woff": "/whatsapp-green-api/static/media/SFProText-RegularItalic.ca4eb7000f4c9ec33ef0.woff",
+    "static/media/SFProText-Bold.woff2": "/whatsapp-green-api/static/media/SFProText-Bold.3131c3296fcd85ae26c0.woff2",
+    "static/media/SFProText-Regular.woff2": "/whatsapp-green-api/static/media/SFProText-Regular.2c278202567f079f9350.woff2",
+    "static/media/wabg.png": "/whatsapp-green-api/static/media/wabg.39f53e74f66d348d9f7c.png",
+    "static/media/SFProText-SemiboldItalic.woff2": "/whatsapp-green-api/static/media/SFProText-SemiboldItalic.137fe8e091ea0fe574ad.woff2",
+    "static/media/SFProText-MediumItalic.woff2": "/whatsapp-green-api/static/media/SFProText-MediumItalic.6a59b376500c26e6c928.woff2",
+    "static/media/SFProText-HeavyItalic.woff2": "/whatsapp-green-api/static/media/SFProText-HeavyItalic.d3078d86a56deb4b09fe.woff2",
+    "static/media/SFProText-LightItalic.woff2": "/whatsapp-green-api/static/media/SFProText-LightItalic.ce76f70d129855ed9d80.woff2",
+    "static/media/SFProText-BoldItalic.woff2": "/whatsapp-green-api/static/media/SFProText-BoldItalic.ab76781202fdeb6356db.woff2",
+    "static/media/SFProText-RegularItalic.woff2": "/whatsapp-green-api/static/media/SFProText-RegularItalic.c9eb673dd0af0e6d6806.woff2",
+    "index.html": "/whatsapp-green-api/index.html",
+    "main.1df9ea9b.css.map": "/whatsapp-green-api/static/css/main.1df9ea9b.css.map",
+    "main.a0771d6a.js.map": "/whatsapp-green-api/static/js/main.a0771d6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1df9ea9b.css",
+    "static/js/main.a0771d6a.js"
+  ]
+}
