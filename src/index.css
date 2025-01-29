@@ -1,4 +1,5 @@
-@import "./fonts.css";
+@import "./styles/_fonts.scss";
+@import "./styles/_variables.scss";
 
 *,
 *::before,

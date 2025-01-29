@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #f0f2f5;
+  background-color: var(--primary-bg-color);
   padding: 12px;
 
   &__list {

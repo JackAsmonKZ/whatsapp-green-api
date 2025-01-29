@@ -9,15 +9,16 @@
   margin: 5px 0;
   position: relative;
   animation: fadeIn 0.3s ease-in-out;
+
   &--incoming {
-    background-color: #ffffff;
-    color: #111;
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-color);
     border-radius: 8px 8px 8px 0;
     max-width: fit-content;
   }
   &--outcoming {
-    background-color: #dcf8c6;
-    color: #111;
+    background-color: var(--outcoming-message-bg-color);
+    color: var(--primary-color);
     border-radius: 8px 8px 0 8px;
     align-self: flex-end;
     text-align: right;

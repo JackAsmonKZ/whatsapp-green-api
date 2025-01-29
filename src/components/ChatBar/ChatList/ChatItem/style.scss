@@ -4,8 +4,8 @@
   flex-direction: column;
   height: 72px;
   justify-content: center;
-  padding-left: 16px;
-  padding-right: 10px;
+  padding-left: var(--padding-left);
+  padding-right: var(--padding-right);
   cursor: pointer;
 
   &:not(:first-child) {
@@ -21,7 +21,7 @@
   }
 
   &:hover {
-    background-color: #f0f2f5;
+    background-color: var(--primary-bg-color);
   }
 
   &__container {
