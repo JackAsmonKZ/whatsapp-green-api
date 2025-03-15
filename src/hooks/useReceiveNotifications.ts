@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { WebhookResponse } from "../types";
 import axios from "axios";
 import { useAuthorization } from "./useAuthorization";
+import { BASE_URL } from "../api";
 
 export const useReceiveNotifications = () => {
   const [newNotification, setNewNotification] = useState<boolean>(false);
@@ -11,13 +12,13 @@ export const useReceiveNotifications = () => {
       while (true) {
         try {
           const response = await fetch(
-            `https://7103.api.greenapi.com/waInstance${idInstance}/receiveNotification/${apiTokenInstance}`
+            `${BASE_URL}/waInstance${idInstance}/receiveNotification/${apiTokenInstance}`
           );
           const data: WebhookResponse = await response.json();
 
           if (data && data.receiptId) {
             setNewNotification(true);
-            const url = `https://7103.api.greenapi.com/waInstance${idInstance}/deleteNotification/${apiTokenInstance}/${data.receiptId}`;
+            const url = `${BASE_URL}/waInstance${idInstance}/deleteNotification/${apiTokenInstance}/${data.receiptId}`;
 
             axios
               .delete(url, { headers: {}, data: {} })
